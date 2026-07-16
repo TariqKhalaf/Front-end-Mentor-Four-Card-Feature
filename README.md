@@ -34,7 +34,7 @@ It was built to practice:
 
 ## 🌐 Live Demo
 
-coming soon...
+https://tariqkhalaf.github.io/Front-end-Mentor-Four-Card-Feature/
 
 ## 👨‍💻 Author
 
