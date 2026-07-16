@@ -1,10 +1,15 @@
+
+:root{
+  --white-color: white;
+
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  background-color: #ffffff;
+  background-color:var(--white-color);
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -39,7 +44,7 @@ p {
   max-width: 90%;
 }
 .top h3 , #first-line{
-  font-size: clamp(1.25rem ,2rem);
+  font-size: clamp(1.25rem ,2vw ,2rem);
 }
 #first-line {
   font-weight: 200;
@@ -112,13 +117,18 @@ p {
   text-align: left;
   border: none;
   border-radius: 0 0 12px 12px;
-  background-color: white;
+  background-color: var(--white-color);
   box-shadow:  1px 10px 10px rgba(0, 0, 0, 0.195);
   position: relative;
+  transition: .3s ease;
+  cursor: pointer;
+}
+.card-container:hover{
+  transform: translateY(-8px);
 }
 .card-container p {
   font-weight: 200;
-  font-size: 15px;
+  font-size: 1rem;
   margin-block: 5px 30px;
 }
 .card-container img {
